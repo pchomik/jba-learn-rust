@@ -1,5 +1,5 @@
 fn main() {
-    let x/*insert here missing part(s)*/;
+    let x: u32 = 0;
     if x == 10 {
         println!("Ten!");
     } else {
