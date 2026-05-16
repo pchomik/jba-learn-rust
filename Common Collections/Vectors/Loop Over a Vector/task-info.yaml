@@ -14,7 +14,7 @@ files:
     visible: true
     placeholders:
       - offset: 60
-        length: 39
+        length: 6
         placeholder_text: /* What should we iterate over here? */
         initial_state:
           length: 39
@@ -22,9 +22,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0w8qf2kJhkePUlHZgwRzTw==
         selected: false
-        status: Unchecked
-      - offset: 110
-        length: 71
+        status: Solved
+      - offset: 77
+        length: 8
         placeholder_text: // Fill this up so that each element in the Vec `v` is multiplied
           by 2.
         initial_state:
@@ -32,9 +32,12 @@ files:
           offset: 110
         initialized_from_dependency: false
         encrypted_possible_answer: QQkOdZrK1ecvHJkXTJr3WQ==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Collections+/+Vectors+/+Loop+Over+a+Vector
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 16 May 2026 20:06:03 UTC"
 record: -1
