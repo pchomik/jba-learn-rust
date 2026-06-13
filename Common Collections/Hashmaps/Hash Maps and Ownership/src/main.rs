@@ -8,5 +8,5 @@ fn main() {
     map.insert(field_name, field_value);
     // field_name and field_value are invalid at this point, try using them
     // and see what compiler error you get!
-    //println!("{}, {}", field_name, field_value);
+    // println!("{}, {}", field_name, field_value);
 }
