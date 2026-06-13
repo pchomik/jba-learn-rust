@@ -5,19 +5,21 @@ files:
     visible: true
     placeholders:
       - offset: 65
-        length: 15
+        length: 23
         placeholder_text: for x in option
         initial_state:
           length: 15
           offset: 65
         initialized_from_dependency: false
         encrypted_possible_answer: heMmQTw3jqe2wuwplZx+N1t/I23+gRYz6bywLRfoXvo=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Collections+/+Options+/+Check+Clippy+for+Option
-status: Unchecked
+status: Solved
+feedback:
+  time: "Sat, 13 Jun 2026 20:31:10 UTC"
 record: -1

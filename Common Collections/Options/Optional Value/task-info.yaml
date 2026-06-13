@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 174
-        length: 22
+        length: 35
         placeholder_text: word = optional_target
         initial_state:
           length: 22
@@ -13,17 +13,17 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: D8PFuXPFKSB4wapbzTcwbzVCCQca29ue+0nS7HHCQAIWPGW4qXp+Ij3RLhjJUVN5
         selected: false
-        status: Unchecked
-      - offset: 609
-        length: 33
+        status: Solved
+      - offset: 622
+        length: 49
         placeholder_text: integer = optional_integers.pop()
         initial_state:
           length: 33
           offset: 609
         initialized_from_dependency: false
         encrypted_possible_answer: qxLU1QW19M80ZQVU7I7crJsqqYV/Yy1r0dfQKT3D1KOyXkN7oRjIcptqVR6QBaC3NcZElGv30+X3yUN12F+aDw==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -35,5 +35,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Collections+/+Options+/+Optional+Value
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 13 Jun 2026 20:34:24 UTC"
 record: -1
