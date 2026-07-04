@@ -12,7 +12,9 @@ impl ParsePosNonzeroError {
         ParsePosNonzeroError::Creation(err)
     }
 
-    // Add another error conversion function for ParseIntError here.
+    pub fn parse(err: ParseIntError) -> ParsePosNonzeroError {
+        ParsePosNonzeroError::ParseInt(err)
+    }
 }
 
 pub fn parse_pos_nonzero(s: &str)
@@ -20,9 +22,13 @@ pub fn parse_pos_nonzero(s: &str)
 {
     // Change this to return an appropriate error instead of panicking
     // when `parse()` returns an error.
-    let x: i64 = s.parse().unwrap();
-    PositiveNonzeroInteger::new(x)
-            .map_err(ParsePosNonzeroError::from_creation)
+    match s.parse() {
+        Ok(x) => {
+            PositiveNonzeroInteger::new(x)
+                    .map_err(ParsePosNonzeroError::from_creation)
+        },
+        Err(err) => Err(ParsePosNonzeroError::ParseInt(err)),  
+    }
 }
 
 // Don't change anything below this line.
